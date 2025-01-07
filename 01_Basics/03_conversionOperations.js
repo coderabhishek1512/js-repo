@@ -14,7 +14,7 @@ let valueInNumber = Number(score)
 let isLoggedIn=1
 let isBooleanLoggedIn=Boolean(isBooleanLoggedIn);
 
-console.log(isBooleanLoggedIn)
+console.log(isBooleanLoggedIn) 
 
 //true=>1; false => 0
 // "" => false; "xyz" => true
