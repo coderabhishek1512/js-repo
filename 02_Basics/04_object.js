@@ -27,8 +27,18 @@ const obj3=Object.assign(obj1,obj2)
 //const obj3={...obj1,...obj2}
 // console.log(obj3)//
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
+
+const course={
+    courseName:"Javascript",
+    price:"999",
+    courseInstructor:"Abhishek"
+}
+
+const {courseInstructor: instructor}=course
+//console.log(courseInstructor);
+console.log(instructor);
