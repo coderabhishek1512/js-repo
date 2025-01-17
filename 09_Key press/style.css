@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.key{
+    font-size: larger;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders don't have gaps */
+  }
+
+  th, td {
+    border: 1px solid #333; /* Adds border to table cells */
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f4f4f4; /* Light gray background for headers */
+  }
+
+  .color{
+margin: 50px;
+padding: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+  }
